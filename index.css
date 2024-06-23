@@ -1,0 +1,89 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h3{
+    line-height: 35px;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+li{
+    display: inline-block;
+    margin  : 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover {
+    color: rgb(132, 14, 201);
+    transition: 0.3s;
+}
+
+#inscrever{
+    border: 2px solid rgb(132, 14, 201);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#inscrever:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+span{
+    color: rgb(132, 14, 201);
+}
+
+h2{
+    font-size: 55px;
+    font-family: poppinsmedium;
+    line-height: 50px;
+}
+
+p{
+    max-width: 500px;
+    font-family: poppinslight;
+    line-height: 20px;
+    margin-top: -20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    max-width: 70%;
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 20px;
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+}
+
+#sub{
+    max-width: 40%;
+    text-align: center;
+    height: 50px;
+    font-weight: 500;
+}
+
+#sub:hover{
+    background-color: rgb(132, 14, 201);
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}
